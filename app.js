@@ -59,6 +59,9 @@ const createSlider = () => {
     alert('please Select at least 2 image.')
     return;
   }
+
+  document.getElementById('search-input').style.display = 'none';
+  document.getElementById('slider-update').style.display = 'block';
   // crate slider previous next area
   sliderContainer.innerHTML = '';
   const prevNext = document.createElement('div');
@@ -130,7 +133,7 @@ searchBtn.addEventListener('click', function () {
 
 sliderBtn.addEventListener('click', function () {
   createSlider()
-})
+});
 
 inputField = document.getElementById('search');
 inputField.addEventListener("keyup", function (event) {

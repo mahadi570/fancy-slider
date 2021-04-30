@@ -13,6 +13,13 @@
       color: orange;
       font-size: 40px;
   }
+  #slider-update{
+      text-align: center;
+      padding: 20px;
+      background-color: gray;
+      color: whitesmoke;
+      display: none;
+  }
   .gallery-header {
     display: none;
   }
