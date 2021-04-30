@@ -1,5 +1,5 @@
 #sliders {
-    height: 400px;
+    height: 500px;
     width: 60%;
     overflow: hidden;
     margin: 0 auto;
@@ -15,6 +15,7 @@
   }
   #slider-update{
       text-align: center;
+      margin: 10px;
       padding: 20px;
       background-color: gray;
       color: whitesmoke;
@@ -38,7 +39,7 @@
   }
   
   img {
-    height: 400px;
+    height: 500px;
     object-fit: cover;
   }
   
