@@ -59,7 +59,8 @@ const createSlider = () => {
     alert('please Select at least 2 image.')
     return;
   }
-
+  
+  document.getElementById('search-bar').style.display = 'none';
   document.getElementById('search-input').style.display = 'none';
   document.getElementById('slider-update').style.display = 'block';
   // crate slider previous next area
